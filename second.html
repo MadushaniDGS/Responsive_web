@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Beautilio</title>
+    
+</head>
+
+<body>
+ 
+  <!--navbar-->
+  <section class="navbar">
+
+    <nav class="navbar">
+       <div class="navbar-container container">
+           <input type="checkbox" name="" id="">
+           <div class="hamburger-lines">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+           </div>
+           
+           <ul class="menu-items">
+
+               <li><a href="#">Home</a></li>
+               
+               <li><a href="#">Appointment</a></li>
+               
+               <li><a href="#">Market Place</a></li>
+               
+               <li><a href="#">Shop</a></li>
+
+       <li><a href="#">About Us</a></li>
+
+
+
+           </ul>
+           
+
+               <div class="search-container">
+                <form action="#">
+                  <input type="text" name="search">
+                  <button type="submit">Search</button>
+                </form>
+              </div>
+               <div class="fav1">
+               <a href="#"><i class="fa-2x fa fa-user" aria-hidden="true"></i></a>
+               </div>
+               <div class="fav2">
+               <a href="#"> <i class="fa-2x fa fa-shopping-cart" aria-hidden="true"></i></a>
+               </div>
+
+
+               
+
+<h1 class="logo">Beautilio</h1>
+           
+               
+       </div>
+   </nav>
+   
+</section>
+
+
+<!-- Headers Section --> 
+
+<div class="headers">
+<h1>Shop</h1>
+<a href="#" >Cloths</a>
+<a href="#">Skin Care</a>
+<a href="#">Fashion</a>
+<a href="#">Toys</a>
+<a href="#">Subcription Plan</a>
+
+<hr class="solid">
+</div>
+
+<div class="breadcrumb" id="breadcrumb">
+  <!-- Breadcrumb links will be populated here -->
+  <a href="#">Home</a> >
+    <a href="#">Shop</a> >
+    <a href="#">Men</a>>
+    <span>Shirts</span>
+</div>
+
+      <!--product details -->
+    <section id="prodetails" class="section-p1">
+      <!--single-pro-image-->
+      <div class="single-pro-image">
+        <img src="images/purple.webp" width="100%" id="MainImg" alt="">
+        
+<!--image-group-->
+        <div class="small-img-group">
+          
+          <div class="small-img-col">
+            <img src="images/purple.webp" width="100%" class="small-img" alt="">
+          </div>
+
+          <div class="small-img-col">
+            <img src="images/red.webp" width="100%" class="small-img" alt="">
+          </div>
+
+          <div class="small-img-col">
+            <img src="images/orange.webp" width="100%" class="small-img" alt="">
+          </div>
+
+          <div class="small-img-col">
+            <img src="images/red.webp" width="100%" class="small-img" alt="">
+          </div>
+          
+        </div>
+      </div>
+      
+    
+<!--image-group-end-->
+
+       <div class="single-pro-details">
+        
+            <h4> Shirt| Men | Green | Purple | </h4> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span class="fa fa-star checked" ></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              
+          <p><span>Availability :</span>   &nbsp; Available</p>
+          <p><span>Product Type  :</span> Slim fit </p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. iste perspiciatis iure nulla aliquid suscipit! Voluptatibus cumque, iste fugiat hic ipsam fuga amet, libero cum itaque id modi nemo praesentium nulla saepe quam magni adipisci porro,..</p>
+
+              <h3>Rs 4,000.00
+              <button class="btn1">Buy Now</button>
+              <button class="btn2">Add to Cart</button></h3>
+              
+              <div class="comment-box">
+                <h2>Leave a Comment</h2>
+                <textarea id="comment-input" placeholder="Type your comment here..."></textarea>
+                <button onclick="postComment()">Post Comment</button>
+                <div id="comments-section"></div>
+              </div>
+            
+              <script src="script.js"></script>
+       </div>  
+
+  </section>
+
+
+<!--footer begin-->
+    <footer>
+        <div class="footer-container">
+          <div class="contact-info">
+            <h3>Contact us</h3>
+             <p class="Phone" id="phoneno">Phone: +94 77 123 4567</p></a>
+            <script>
+              document.getElementById('phoneno').addEventListener('click', function() {
+                // Navigate to workpage.html inside the 'work' folder
+                window.location.href = 'tel:+94771234567';
+              });
+            </script>
+            <p class="email" id="email">Email: petopia@gmail.com</p>
+            <script>
+              document.getElementById('email').addEventListener('click', function() {
+                // Navigate to workpage.html inside the 'work' folder
+                window.location.href = 'mailto:petopialk@gmail.com';
+              });
+              </script> 
+          </div>
+          <div class="social-media">
+            <h3>Follow us</h3>
+            <a href="#"><img src="images/fb.jpeg" alt="Facebook"></a>
+            <a href="#"><img src="images/insta.jpeg" alt="Instagram"></a>
+          </div>
+          <div class="footerlogo">
+            <h1>Beautilio</h1>
+          </div>
+        </div>
+      </footer>
+      <!--footer end-->
+
+  </body>
+</html>
